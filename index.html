@@ -2,9 +2,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <script src="https://kit.fontawesome.com/76844cc85e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">This is a test quote hehehehe</span>
+        </div>
+        <!-- Author -->
+        <div class="quote-author">
+            <span id="author">Me</span>
+        </div>
+        <!-- Buttons -->
+        <div class="button-container">
+            <button class="twitter-button" id="twitter" title="Tweet This Quote!">
+                <i class="fab fa-twitter"></i>
+            </button>
+            <button id="new-quote">New Quote</button>
+        </div>
+    </div>
+
+
+
+
+
+
+<!-- Script -->
+    <script src="lib/script.js"></script>
 </body>
 </html>
